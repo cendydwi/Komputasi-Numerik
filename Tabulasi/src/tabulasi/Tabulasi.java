@@ -7,7 +7,7 @@ package tabulasi;
 
 /**
  *
- * @author NOTHING
+ * @author cendy
  */
 public class Tabulasi {
     
