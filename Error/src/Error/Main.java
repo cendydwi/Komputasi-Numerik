@@ -5,14 +5,14 @@ public class Main {
         double[][] nilai = new double[4][6];
         int mad = 0,mape = 0, sse = 0;
         
-        nilai[0][0]=70;
-        nilai[0][1]=60;
-        nilai[1][0]=80;
-        nilai[1][1]=70;
-        nilai[2][0]=50;
-        nilai[2][1]=80;
-        nilai[3][0]=60;
-        nilai[3][1]=70;
+        nilai[0][0]=7000;
+        nilai[0][1]=5000;
+        nilai[1][0]=9000;
+        nilai[1][1]=7000;
+        nilai[2][0]=7000;
+        nilai[2][1]=7000;
+        nilai[3][0]=4000;
+        nilai[3][1]=7000;
         System.out.println("Y  | YP | |e| | er | e^2 | akar^2 e^2 |");
         for (int i = 0; i < 4; i++) {
             nilai[i][2] = nilai[i][0] - nilai[i][1];
