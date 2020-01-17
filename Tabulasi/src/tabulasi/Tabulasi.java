@@ -20,7 +20,7 @@ public class Tabulasi {
         System.out.println("Fungsi: 2x - 10");
         
         double loop1 = 0, loop2=0, loop3=0, loop4=0, loop5=0, loop6=0;
-        for(int x = -5; x < 5; x++){
+        for(int x = 1; x < 9; x++){
             double fungsi = fungsi(x);
             if(fungsi<0){
                 loop1=x+1;
@@ -29,7 +29,7 @@ public class Tabulasi {
         loop2=loop1;
         System.out.printf("Hasil 1: %.1f\n",loop2);
         
-        for(int x = 0; x <= 10; x++){
+        for(int x = 1; x <= 9; x++){
             double fungsi = fungsi(loop2);
             if(fungsi==0 || fungsi<0){
                 loop3=loop2;
@@ -39,7 +39,7 @@ public class Tabulasi {
         }
         System.out.printf("Hasil 2: %.1f\n",loop3);
         
-        for(int x = 0; x <= 10; x++){
+        for(int x = 1; x <= 9; x++){
             double fungsi = fungsi(loop3);
             if(fungsi==0 || fungsi<0){
                 loop4=loop3;
@@ -49,23 +49,23 @@ public class Tabulasi {
         }
         System.out.printf("Hasil 3: %.1f\n",loop4);
         
-        for(int x = 0; x <= 10; x++){
+        for(int x = 1; x <= 9; x++){
             double fungsi = fungsi(loop4);
             if(fungsi==0 || fungsi<0){
                 loop5=loop4;
                 break;
             }
-            loop4=loop4-0.01;
+            loop4=loop4-0.001;
         }
         System.out.printf("Hasil 4: %.1f\n",loop5);
         
-        for(int x = 0; x <= 10; x++){
+        for(int x = 1; x <= 9; x++){
             double fungsi = fungsi(loop5);
             if(fungsi==0 || fungsi<0){
                 loop6=loop5;
                 break;
             }
-            loop5=loop5-0.01;
+            loop5=loop5-0.0001;
         }
         System.out.printf("Hasil 4: %.1f\n",loop6);
         
